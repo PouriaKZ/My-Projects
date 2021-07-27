@@ -1,0 +1,511 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+  	-webkit-font-smoothing: antialiased;
+  	font-smoothing: antialiased;
+}
+div,header,footer,section,nav,aside,article{
+	box-sizing: border-box;
+}
+.header {
+	background: url("../images/slider-bg-1.jpg") top center no-repeat;
+	background-size: cover;
+	height: 140vh;
+}
+#menulist2 .current {
+	color: #F34E3A;
+}
+#menulist ul,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	text-transform: uppercase;
+	font-family: "Roboto";
+}
+.logoimg{
+	padding-top: 50px;
+}
+nav {
+	padding-top: 50px;
+}
+#menulist a{
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+}
+#menulist a:hover{
+	color: #F34E3A;
+}
+.space {
+	height: 30vh;
+}
+.headtext h4{
+	color: antiquewhite;
+	font-size: 25px;
+}
+.headtext h1{
+	color: antiquewhite;
+	font-size: 110px;
+	font-weight: 700;
+	letter-spacing: 7px;
+}
+.headtext span{
+	color: #F34E3A;
+}
+.headtext {
+	text-align: center;
+	text-transform: uppercase;
+}
+.headtext a{
+	text-decoration: none;
+	text-align: center;
+	width: 169px;
+	height: 45px;
+	background:#F34E3A;
+	color: antiquewhite;
+	padding: 12px 30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.jumbotron{
+	margin: 2px;
+
+}
+.textback1{
+	background:
+		#9D69D8;
+}
+.textback2{
+	background:
+		#62D3B3;
+}
+.textback3{
+	background:
+		#5acd57;
+}
+.textback4{
+	background:
+		#ed5e4c;
+}
+.textback1, .textback2, .textback3, .textback4 {
+	margin: 5px;
+	color: antiquewhite;
+}
+.space2 {
+	height: 20vh;
+}
+.pickback {
+	background: url("../images/cta-bg.jpg") center center no-repeat;
+	background-size: cover;
+	height: 50vh;
+	text-align: center;
+}
+.pickback h4{
+	color: antiquewhite;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.pickback p{
+	color: antiquewhite;
+	font-size: 15px;
+}
+.pickback a{
+	text-decoration: none;
+	text-align: center;
+	width: 169px;
+	height: 45px;
+	background:#F34E3A;
+	color: antiquewhite;
+	padding: 12px 30px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.space3 {
+	height: 10vh;
+}
+.onelink a{
+	text-decoration: none;
+	text-align: center;
+	width: 169px;
+	height: 45px;
+	background:#F34E3A;
+	color: antiquewhite;
+	padding: 12px 30px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.onelink {
+	padding-left: 320px;
+}
+.sectext {
+	padding-left: 60px;
+	padding-top: 50px;
+}
+.onelink2 a{
+	text-decoration: none;
+	text-align: center;
+	width: 129px;
+	height: 45px;
+	color: #F34E3A;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.onlink2 a:hover{
+	color: #F34E3A;
+}
+.picktext p{
+	padding-top: 20px;
+	font-weight: bold;
+}
+.pickbacktable {
+	background: url("../images/trainer-bg.jpg") center center no-repeat;
+	background-size: cover;
+	height: 140vh;
+}
+.tabletext {
+	text-align: center;
+	text-transform: uppercase;
+	color: antiquewhite;
+	padding-top: 80px;
+}
+.tabletext hr{
+	color: #F34E3A;
+}
+tbody p{
+	color: #F34E3A;
+	font-weight: bold;
+}
+table {
+	font-weight: bold;
+}
+.backcolor {
+	background: #F2F4F5;
+	padding-top: 80px;
+	padding-left: 120px;
+	height: 30vh;
+}
+.backcolor a{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	width: 169px;
+	height: 45px;
+	background:#F34E3A;
+	color: antiquewhite;
+	padding: 12px 30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.backcolorlink {
+	padding-left: 470px;
+}
+.traintext {
+	text-align:left;
+	padding: 70px 30px;
+}
+.traintext p{
+	color: #F34E3A;
+}
+.traintext h4{
+	font-weight: bold;
+}
+.backcolor2 {
+	background: #F2F4F5;
+	height: 150vh;
+}
+.tabletext2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+.imgtext {
+	border: 1px solid gray;
+}
+.imgtext h5{
+	font-weight: bold;
+	font-size: 17px;
+	text-align: left;
+	padding: 20px 10px;
+}
+.formpick {
+	background: url("../images/contact-form-bg.jpg") center center no-repeat;
+	background-size: cover;
+	color: antiquewhite;
+	padding: 60px 40px;
+	text-align: justify;
+}
+.formpick h3{
+	font-weight: bolder;
+}
+form input[type=text]{
+	width: 240px;
+	height: 40px;
+	border: none;
+}
+form input[type=email]{
+	width: 260px;
+	height: 40px;
+	border: none;
+}
+form input[type=submit]{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	width: 169px;
+	height: 45px;
+	background:#F34E3A;
+	color: antiquewhite;
+	padding: 12px 30px;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+}
+.backmap {
+	background: url("../images/map.jpg") center center no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.backcolor3 {
+	background: #191919;
+	height: 15vh;
+	padding: 30px 20px;
+	color: #6E6E6E;
+}
+.backcolor3 span {
+	padding: 0 60px;
+}
+.header2 {
+	height: 20vh;
+}
+#menulist2 a{
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+.pickback2 {
+	background: url("../images/about-breadcrumb-bg.jpg") center center no-repeat;
+	background-size: cover;
+	height: 30vh;
+	text-align: center;
+	color: antiquewhite;
+	padding-top: 30px;
+}
+.pickback2 h3{
+	font-weight: bold;
+	font-size: 40px;
+}
+.pickback2 p {
+	font-size: 20px;
+}
+.abouttext {
+	color: black;
+}
+.abouttext h2{
+	font-weight: bolder;
+	font-size: 2rem;
+}
+.abouttext p{
+	font-weight: bold;
+	font-size: 1.10rem;
+	
+}
+.pickback3 {
+	background: url("../images/chose-us-bg.jpg") center center no-repeat;
+	background-size: cover;
+	height: 60vh;
+	text-align: center;
+	color: antiquewhite;
+}
+.pickback3 h2{
+	font-weight: bold;
+	font-size: 2rem;
+}
+.pickback3 p{
+	font-size: 1.1rem;
+}
+.pickback3text{
+	color: antiquewhite;
+	text-align: center;
+}
+.traintext {
+	text-align: center;
+	color: black;
+}
+.traintext h2{
+	font-weight: bold;
+	font-size: 2rem;
+}
+.traintext p{
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: #6E6E6E;
+}
+.traintext hr{
+	background: #F34E3A;
+}
+.traintext2 {
+	text-align: center;
+	color: black;
+}
+.space4 {
+	height: 5vh;
+}
+.schedule {
+	text-align: center;
+	color: black;
+	
+}
+.schedule hr{
+	background: #F34E3A;
+}
+#schedulelist a{
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	font-family: "Oswald", sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+}
+.schedule h3{
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.scheduletable td, tr, th {
+	border: 1px solid lightgray;
+}
+.contact p{
+	font-size: 20px;
+	font-weight: 500;
+	padding-top: 20px;
+}
+.contact h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+.contactform input[type=text]{
+	width: 500px;
+	height: 50px;
+	border: 1px solid lightgray;
+	
+}
+.contactform input[type=email]{
+	width: 500px;
+	height: 50px;
+	border: 1px solid lightgray;
+	
+}
+.contactform2 a{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	width: 169px;
+	height: 45px;
+	background:#F34E3A;
+	color: antiquewhite;
+	padding: 12px 30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.blogitem p{
+	font-weight: 500;
+	display: inline;
+	color: #333;
+}
+.blogitem span{
+	font-weight: 500;
+	padding-left:  400px;
+	color: #333;
+}
+.blogitem a{
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100px;
+	height: 45px;
+	color: #F34E3A;
+	padding-top: 20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.blogitem h2{
+	font-weight: 700;
+}
+.sidebartext h4{
+	font-weight: 800;
+}
+.sidebartext h5{
+	font-weight: 600;
+}
+.sidebartext span{
+	color: #333;
+}
+.sidebartext a{
+	text-decoration: none;
+	text-align: center;
+	width: 100px;
+	height: 45px;
+	color: #4A4A4A;
+	font-size: 20px;
+}
+.sidebartext a:before{
+	content:"\A";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #F34E3A;
+	display: inline-block;
+	margin-right: 10px;
+}
+.sidebartext a:hover{
+	color: #F34E3A;
+}
+.atags span{
+	text-align: center;
+	width: 100px;
+	height: 45px;
+	color: #4A4A4A;
+	font-size: 20px;
+	border: 1px solid lightgray;
+	display: inline-block;
+	padding: 3px;
+	margin: 1px;
+}
+.atags span:hover{
+	color: #F34E3A;
+	border: 1px solid #F34E3A;
+}
+.hourstext p{
+	color: #333;
+	display: inline;
+}
+.hourstext span{
+	color: #333;
+	padding-left: 150px;
+	text-align: justify;
+}
+.hourstext span:hover{
+	color: #F34E3A;
+}
+.hourstext p:hover{
+	color: #F34E3A;
+}
+
+
+
